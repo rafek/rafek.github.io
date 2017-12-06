@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  font-size: 16px;
+  line-height: 30px;
+  color: #787878;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+strong, b {
+  color: #3b3b3b;
+}
+
+.wrapper {
+  padding-bottom: 30px;
+  background-color: inherit;
+
+  header {
+    position: relative;
+    padding-top: 60px;
+    z-index: 1005;
+
+    .default-header {
+      width: 100%;
+      display: table;
+      table-layout: fixed;
+    }
+
+    .logo {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      min-width: 100px !important;
+      z-index: 10;
+      width: 30%;
+
+      a {
+        font-weight: 600 !important;
+        position: relative;
+        letter-spacing: -1px;
+        display: inline-block;
+        color: #3b3b3b;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
+
+.wrapper {
+  .page-title {
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .heading-title, h1 {
+      font-size: 30px;
+      line-height: 42px;
+      font-weight: 300;
+      margin: 0;
+      color: #3b3b3b;
+    }
+
+    .heading-title {
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+.n-container > .row {
+  margin: 0;
+}
+
+.n-container > .row > .vc-row-inner {
+  position: relative;
+  padding: 0;
+}
+
+.n-container > .row > .vc-row-inner > .vc-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.n-container > .row > .vc-row-inner > .vc-row > .row-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 750px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 970px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+.ml-top-padding {
+  padding-top: 70px;
+}
