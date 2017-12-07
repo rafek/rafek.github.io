@@ -19,6 +19,10 @@ strong, b {
   color: #3b3b3b;
 }
 
+.align-right {
+  text-align: right !important;
+}
+
 .wrapper {
   padding-bottom: 30px;
   background-color: inherit;
@@ -118,6 +122,45 @@ strong, b {
 
   @media screen and (min-width: 1200px) {
     width: 1170px;
+  }
+}
+
+footer {
+  p {
+    font-size: 14px;
+  }
+
+  .footer-widgets {
+    font-size: 16px;
+    padding: 50px 0 40px;
+    border-bottom: 1px solid #dedede;
+  }
+
+  .footer-copyright {
+    padding: 30px 0;
+    line-height: 30px;
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin-left: 25px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        a {
+          color: inherit;
+        }
+      }
+    }
   }
 }
 
