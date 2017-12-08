@@ -58,6 +58,17 @@ strong, b {
       }
     }
   }
+
+  .portfolio {
+    .item-holder {
+      margin-bottom: 30px;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .wrapper {
