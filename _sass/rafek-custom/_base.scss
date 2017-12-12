@@ -87,6 +87,16 @@ strong, b {
       margin-bottom: 30px;
       position: relative;
 
+      &:hover {
+        .item {
+          top: 0;
+
+          .overlay-background {
+            opacity: .9
+          }
+        }
+      }
+
       img {
         width: 100%;
       }
@@ -105,7 +115,7 @@ strong, b {
           right: 0;
           bottom: 0;
           background-color: #ffffff;
-          opacity: .8;
+          opacity: .7;
         }
 
         .overlay {
@@ -138,7 +148,6 @@ strong, b {
           }
         }
       }
-
 
     }
   }
