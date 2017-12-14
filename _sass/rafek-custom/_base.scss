@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5 {
+  color: #3b3b3b;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -175,6 +179,30 @@ strong, b {
 
       p:last-child {
         margin-bottom: 0;
+      }
+    }
+  }
+
+  .project-single {
+    .single-info {
+      .project-description {
+        h3 {
+          font-size: 26px;
+          margin: 0 0 5px;
+        }
+
+        span {
+          display: block;
+          font-size: 16px;
+          margin-bottom: 25px;
+          color: #757575;
+        }
+
+        p {
+          font-size: 15px;
+          color: #555555;
+          margin-bottom: 15px;
+        }
       }
     }
   }
