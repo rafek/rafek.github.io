@@ -75,6 +75,42 @@ strong, b {
         text-transform: lowercase;
       }
     }
+
+    .header-holder {
+      text-align: right;
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    nav {
+      float: right;
+      position: relative;
+
+      ul {
+        margin-right: 0 !important;
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+          display: inline-block;
+          margin-left: 25px;
+          position: relative;
+          padding: 10px 0;
+
+          &:first {
+            margin-left: 0;
+          }
+
+          a {
+            color: #848484;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 300;
+            position: relative;
+          }
+        }
+      }
+    }
   }
 
   .portfolio {
@@ -245,7 +281,8 @@ strong, b {
         font-size: 25px;
       }
 
-      svg#mixed-reality {
+      svg#mixed-reality,
+      svg#unity {
         width: 25px;
         height: 25px;
 
