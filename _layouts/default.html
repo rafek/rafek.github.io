@@ -11,6 +11,9 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <meta name="google-site-verification" content="FQj54tp8pOeroWBNYos07rv-0Th7CfKkQYFJk9IeJsU" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -21,6 +24,11 @@
             <a href="/">rafek</a>
           </div>
           <div class="header-holder">
+            <div class="hamburger display-none">
+              <a href="#">
+                <div class="hamburger-inner"></div>
+              </a>
+            </div>
             <div class="menu-holder">
               <nav>
                 <ul id="menu" class="menu">
@@ -46,5 +54,6 @@
     {{ content }}
   </div>
   {% include footer.html %}
+  <script src="/js/main.js?v=0.111"></script>
 </body>
 </html>
