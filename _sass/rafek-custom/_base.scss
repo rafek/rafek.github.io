@@ -514,3 +514,11 @@ footer {
 .display-none {
   display: none !important;
 }
+
+.speaking ul {
+  padding: 0;
+  
+  li {
+    list-style: none;
+  }
+}
