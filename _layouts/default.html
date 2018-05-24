@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>rafek | Rafał Legiędź</title>
+  <title>rafał legiędź | rafek</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111280245-1"></script>
@@ -27,43 +27,9 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <div class="container">
-        <div class="default-header header">
-          <div class="logo">
-            <a href="/">rafek</a>
-          </div>
-          <div class="header-holder">
-            <div class="hamburger display-none">
-              <a href="#">
-                <div class="hamburger-inner"></div>
-              </a>
-            </div>
-            <div class="menu-holder">
-              <nav>
-                <ul id="menu" class="menu">
-                  <li class="">
-                    <a href="/">home</a>
-                  </li>
-                  <li class="">
-                    <a href="/developing">developing</a>
-                  </li>
-                  <li class="">
-                    <a href="/speaking">speaking</a>
-                  </li>
-                  <li class="">
-                    <a href="/organizing">organizing</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    {% include header.html %}
     {{ content }}
   </div>
-  {% include footer.html %}
   <script src="/js/main.js?v=0.111"></script>
 </body>
 </html>

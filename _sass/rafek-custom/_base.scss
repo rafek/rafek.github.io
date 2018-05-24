@@ -76,6 +76,10 @@ strong, b {
       z-index: 10;
       width: 30%;
 
+      @media screen and (max-width: 992px) {
+        width: 75%;
+      }
+
       a {
         font-weight: 600 !important;
         position: relative;
@@ -495,6 +499,29 @@ footer {
   }
 }
 
+.page-socials {
+  margin-top: 25px;
+  font-size: 20px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 25px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
+
 .md-top-padding {
     padding-top: 50px;
 }
@@ -517,7 +544,7 @@ footer {
 
 .speaking ul {
   padding: 0;
-  
+
   li {
     list-style: none;
   }
